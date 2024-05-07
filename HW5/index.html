@@ -1,0 +1,21 @@
+<!-- HTML-разметка страницы -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хранилище рецептов напитков</title>
+</head>
+<body>
+    <h1>Хранилище рецептов напитков</h1>
+    <input type="text" id="drinkName" placeholder="Название напитка">
+    <input type="text" id="drinkRecipe" placeholder="Рецепт приготовления">
+    <input type="text" id="drinkAlco" placeholder="Напиток алкогольный?">
+    <button onclick="addDrink()">Добавить напиток</button>
+    <button onclick="getDrink()">Получить информацию о напитке</button>
+    <button onclick="deleteDrink()">Удалить напиток</button>
+    <button onclick="getAllDrinks()">Все напитки</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
